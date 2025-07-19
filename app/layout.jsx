@@ -3,7 +3,7 @@ import "./globals.css";
 
 const roboto = Roboto({
   weight: ["100", "200", "300", "400", "500", "600", "700"],
-  preload: true,
+  subsets:["latin"]
 });
 
 export const metadata = {
